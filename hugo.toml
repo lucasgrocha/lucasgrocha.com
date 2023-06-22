@@ -12,7 +12,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     brand_image = "/images/picture.jpg"    # path to the image shown in the sidebar
     description = "Software Engineer" # Used as default meta description if not specified in front matter
     dark_mode = false                      # optional - defaults to false
-    favicon = "/favicon.png"             # path to favicon (defaults to favicon.png)
+    # favicon = "/favicon.png"             # path to favicon (defaults to favicon.png)
 
     # MENU PLACEHOLDER
     # Menu dict keys:
