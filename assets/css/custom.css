@@ -1,0 +1,16 @@
+.footnote {
+  display: none;
+}
+
+a:hover {
+  color: var(--link-color) !important;
+  text-decoration: none;
+}
+
+.bullet {
+  text-decoration: none !important;
+}
+
+.bullet a {
+  text-decoration: underline !important;
+}
