@@ -9,12 +9,18 @@ cd into repo
 ```sh
   cd lucasgrocha.dev
 ```
+
 Update the submodule git themes
 ```sh
   git submodule update --init
 ```
+
 Run server
 ```sh
   hugo server -v
 ```
 
+or with docker
+```sh
+  docker-compose up
+```
