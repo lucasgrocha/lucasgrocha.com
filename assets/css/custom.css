@@ -11,3 +11,20 @@ a:hover {
 .bullet {
   text-decoration: none !important;
 }
+
+.brand a h1 {
+  font-family: Roboto-Medium;
+  font-weight: 500;
+}
+
+/* Set font families */
+
+@font-face {
+  font-family: LilitaOne-Regular;
+  src: url('/fonts/LilitaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url('/fonts/Roboto-Medium.ttf');
+}
