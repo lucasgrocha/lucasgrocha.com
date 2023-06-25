@@ -1,5 +1,5 @@
 ---
-title: "Getting Started With Docker"
+title: "Docker: First steps"
 date: 2023-06-25
 draft: false
 tags: ['docker', 'CLI']
