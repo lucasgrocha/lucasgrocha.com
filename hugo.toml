@@ -2,10 +2,14 @@ baseURL = "https://lucasgrocha.com"
 languageCode = "en-us"
 theme = "poison"
 paginate = 10
+title = "Lucas Rocha"
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
 # NOTE: If using Disqus as commenting engine, uncomment and configure this line
 # disqusShortname = "yourDisqusShortname"
+
+[author]
+    name = "Lucas Rocha"
 
 [params]
     brand = "Lucas Rocha"                      # name of your site - appears in the sidebar
@@ -23,6 +27,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+        {Name = "Tags", URL = "/tags/", HasChildren = false},
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use.
