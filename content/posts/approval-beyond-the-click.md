@@ -5,5 +5,5 @@ draft: false
 image: "/images/banners/approval-beyond-the-click.png"
 ---
 
-Testing og:image
+Testing og:image 2
 
