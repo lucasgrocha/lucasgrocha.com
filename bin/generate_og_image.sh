@@ -1,15 +1,17 @@
 #!/bin/bash
 
 # Set the desired title, subtitle, font, and size
-title=""
+title="$1"
 subtitle=""
 font="Roboto-Medium"
 font_size_title=100
 font_size_subtitle=40
 
-read -p "Title: " title
+if [ -z "$title" ]; then
+    read -p "Title: " title
+fi
 # read -p "Font size ($font_size_title): " input_font_size_title
-read -p "Subtitle: " subtitle
+# read -p "Subtitle: " subtitle
 
 # Set the output file name
 converted_text=$(echo "$title" | tr '[:upper:]' '[:lower:]' | tr '[:space:]' '-' | sed 's/^-//; s/-$//')
