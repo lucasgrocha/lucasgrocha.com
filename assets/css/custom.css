@@ -2,6 +2,10 @@
   /* display: none; */
 }
 
+.sidebar {
+  overflow: hidden;
+}
+
 a:hover {
   color: var(--link-color) !important;
   text-decoration: none;
