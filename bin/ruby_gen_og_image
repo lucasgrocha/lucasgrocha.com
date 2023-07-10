@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+
+require 'bundler/inline'
+
+require 'rmagick'
+include Magick
+
+def word_wrap(line)
+  return line if line.length <= 26
+  line.gsub(/(.{1,26})(\s+|$)/, "\\1\n").strip
+end
+
+def og_create(my_text)
+  background_image = Dir.glob('assets/images/background.png').sample
+  image = Magick::Image.read(background_image).first
+
+  create = Magick::Draw.new
+  position = 0
+
+  create.annotate(image, 0, 0, 3, 0, word_wrap(my_text)) do |note|
+    note.font = 'Roboto-Medium'
+    note.pointsize = 75
+    note.font_weight = BoldWeight
+    note.fill = 'black'
+    note.gravity = CenterGravity
+  end
+
+  file_name = my_text.dup
+  file_name.downcase!
+  file_name.strip!
+  file_name.gsub!(/[^a-z0-9\s-]/, '') # Remove non-word characters
+  file_name.gsub!(/\s+/, '-')         # Convert whitespaces to dashes
+  file_name.gsub!(/-\z/, '')          # Remove trailing dashes
+  file_name.gsub!(/-+/, '-')          # get rid of double-dashes
+  image.write("assets/images/banners/#{file_name}.png")
+end
+
+og_create(ARGV[0])
