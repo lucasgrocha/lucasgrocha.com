@@ -2,6 +2,10 @@
   /* display: none; */
 }
 
+iframe {
+  pointer-events: none !important;
+}
+
 .sidebar {
   overflow: hidden;
 }
