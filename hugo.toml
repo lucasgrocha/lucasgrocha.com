@@ -5,6 +5,10 @@ paginate = 10
 title = "Lucas Rocha"
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
+
+[markup.goldmark.renderer]
+    unsafe= true
+
 # NOTE: If using Disqus as commenting engine, uncomment and configure this line
 # disqusShortname = "yourDisqusShortname"
 
