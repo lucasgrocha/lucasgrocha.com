@@ -1,7 +1,7 @@
 ---
 title: "The Problem of Linting"
 date: 2023-07-12T19:00:00-03:00
-draft: true
+draft: false
 image: "/images/banners/the-problem-of-linting.png"
 tags: ["code", "styling", "linter"]
 ---
