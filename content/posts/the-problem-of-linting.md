@@ -6,14 +6,21 @@ image: "/images/banners/the-problem-of-linting.png"
 tags: ["code", "styling", "linter"]
 ---
 
-
-Have you already spent precious time of your day fixing a code syntax style just because your code linter didn’t like that? Well, everyone already did, but don’t let it affect your work.
+Have you already spent precious time of your day fixing a code syntax style just because your code linter didn’t like that? Well, everyone already did, but don’t let it delay and distract you.
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/woWQA2I7xqRMI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 ## What is linting?
 
 Linting is basically a tool that will make the code look prettier by following a sort of code stylish, rules, and patterns, developers use that to make the codebase style the same for everyone, it also can help to prevent some mistaken code that may reduce the performance or cause any syntax issue in the future.
+
+### Short example
+
+```ruby
+puts "Hello, world!"
+```
+Will result in this ruby’s linter feedback
+![linter](/images/the-problem-of-linting/rubocop.png "Linter feedback")
 
 ## The problem
 
@@ -37,15 +44,16 @@ Getting straight to the point, just **skip** the linter issues. This is the best
 
 The linter is not your mentor or even a stakeholder who urgently wants your code perfect to make money (*except if work at [Oracle](https://www.oracle.com/br/java/)*), It’s just a tool, make a tech debt ticket and go ahead with your work. Do what matters instead!
 
+> *“Why don’t you show the total number of people in the room at a given time?” Answer: It just doesn’t matter. Everyone’s name is listed so you know who’s there, but what difference does it make if there’s 12 or 16 people? If it doesn’t change your behavior, then it just doesn’t matter.*
 > *Would these things be nice to have? Sure. But are they essential? Do they really matter? Nope.*
 >
 > *And that’s why we left them out. The best designers and the best programmers aren’t the ones with the best skills, or the nimblest fingers, or the ones who can rock and roll with Photoshop or their environment of choice, they are the ones that can determine what just doesn’t matter.*
 >
 > *That’s where the real gains are made.*
 <p style="text-align: right">
-  <strong>Getting Real – It Just Doesn't Matter (37signals)</strong>
+  <strong><a href="https://basecamp.com/gettingreal/05.2-it-just-doesnt-matter" target="_blank">Getting Real – It Just Doesn't Matter (37signals)</a></strong>
 </p>
 
 ## Conclusion
 
-Linting is an awesome tool for every single developer and codebase, but we should always be attentive on how much time we are allocating to work on that, if that's a quick and easy thing (hopefully it is), just go ahead, if you're spending more time than just the necessary to rename a variable or replace some method call, make a tech debt and go to the next step.
+Linting is an awesome tool for every single developer and codebase, but we should always be attentive to how much time of our day we are allocating to work on that, if that's a quick and easy thing (98% of the time it is), just go ahead, but if you're spending more time than just the necessary to rename a misspelled variable or replace some built-in method call you should consider creating a tech debt and do not let you get distracted with just unnecessary stuff.
