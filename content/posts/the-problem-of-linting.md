@@ -3,7 +3,7 @@ title: "The Problem of Linting"
 date: 2023-07-12T19:00:00-03:00
 draft: false
 image: "/images/banners/the-problem-of-linting.png"
-tags: ["code", "styling", "linter"]
+tags: ["code", "styling", "linting"]
 ---
 
 Have you already spent precious time of your day fixing a code syntax style just because your code linter didn’t like that? Well, everyone already did, but don’t let it delay and distract you.
