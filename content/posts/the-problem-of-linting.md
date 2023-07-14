@@ -42,7 +42,7 @@ It does not mean you should make a poor code with a lot of inconveniences or har
 
 ## So what should we do?
 
-Getting straight to the point, just **skip** the linter issues. This is the best decision we can make in some scenarios like that which the code will not directly affect the expected results, we should not spend time of our day in just beautification that will not aggregate any kind of value to the customer/company, because they are the target of the product we make.
+Getting straight to the point, just **ignore** the linter issues for a moment. This is the best decision we can make in some scenarios like that which the code will not directly affect the expected results, we should not spend time of our day in just beautification that will not aggregate any kind of value to the customer/company, because they are the target of the product we make.
 
 The linter is not your mentor or even a stakeholder who urgently wants your code perfect to make money (*except if work at [Oracle](https://www.oracle.com/br/java/)*), It’s just a tool, make a tech debt ticket and go ahead with your work. Do what matters instead!
 
