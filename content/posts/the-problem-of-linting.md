@@ -1,6 +1,6 @@
 ---
 title: "The Problem of Linting"
-date: 2023-07-12T19:00:00-03:00
+date: 2023-07-13T21:00:00-03:00
 draft: false
 image: "/images/banners/the-problem-of-linting.png"
 tags: ["code", "styling", "linting"]
@@ -14,7 +14,7 @@ Have you already spent precious time of your day fixing a code syntax style just
 
 Linting is basically a tool that will make the code look prettier by following a sort of code stylish, rules, and patterns, developers use that to make the codebase style the same for everyone, it also can help to prevent some mistaken code that may reduce the performance or cause any syntax issue in the future.
 
-### Short example
+### Code/linter example
 
 ```ruby
 puts "Hello, world!"
@@ -51,7 +51,7 @@ The linter is not your mentor or even a stakeholder who urgently wants your code
 >
 > *That’s where the real gains are made.*
 <p style="text-align: right">
-  <strong><a href="https://basecamp.com/gettingreal/05.2-it-just-doesnt-matter" target="_blank">Getting Real – It Just Doesn't Matter (37signals)</a></strong>
+  <strong><a href="https://basecamp.com/gettingreal/05.2-it-just-doesnt-matter" target="_blank">~&nbsp; Getting Real – It Just Doesn't Matter (37signals)</a></strong>
 </p>
 
 ## Conclusion
