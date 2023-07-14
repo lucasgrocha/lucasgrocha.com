@@ -16,11 +16,12 @@ Linting is basically a tool that will make the code look prettier by following a
 
 ### Code/linter example
 
+Given this ruby code
 ```ruby
 puts "Hello, world!"
 ```
-Will result in this ruby’s linter feedback
-![linter](/images/the-problem-of-linting/rubocop.png "Linter feedback")
+The linter returns this
+![linter](/images/the-problem-of-linting/rubocop.png "Linter output")
 
 ## The problem
 
@@ -32,11 +33,11 @@ Sometimes the linter is not able to fix the code and starts complaining about a 
 
 I’ve already seen a lot of people in the developers’ community caring about how their code should look (e.g., as perfect as possible), I know there also could have a “slightly” self-imposition to make a beautiful code because a lot of teachers teach us in this way for the whole life for every single thing we do! Which is wrong because they forget to teach how to prioritize certain things.
 
-*Assembly programming language runs faster than any other language, but using that in a business is unsustainable due to its high complexity and comprehensibility, that’s why we use high level programming languages, they are slower, but they make us faster to deliver a lot of things, everything in computing is based on trade-offs.*
+*Assembly programming language runs faster than any other language, but using that in a business is unsustainable due to its high complexity and comprehensibility, that’s why we use high-level programming languages, they are slower, but they make us faster to deliver a lot of things, everything in computing is based on trade-offs.*
 
-I’m not saying these things are useless or not important, making a good code is awesome for everyone, the issue is prioritizing the linter stuff than all the remaining work.
+I’m not saying these things are useless or not important, making a good code is awesome for everyone, the issue is prioritizing the linter stuff over all the remaining work.
 
-It does not mean you should make a poor code with a lot of inconveniences or hard to read, no. You should always do your best to also bring value to the codebase, specially the things you make because they are like your children, and you should take care, oversee and understand what’s going on as well, also make that easy for your teammates to be able to continue improving what you made without any major blockers due the code quality.
+It does not mean you should make a poor code with a lot of inconveniences or hard to read, no. You should always do your best to also bring value to the codebase, especially the things you make because they are like your children, and you should take care, oversee and understand what’s going on as well, also make that easy for your teammates to be able to continue improving what you made without any major blockers due the code quality.
 
 ## So what should we do?
 
@@ -51,7 +52,9 @@ The linter is not your mentor or even a stakeholder who urgently wants your code
 >
 > *That’s where the real gains are made.*
 <p style="text-align: right">
-  <strong><a href="https://basecamp.com/gettingreal/05.2-it-just-doesnt-matter" target="_blank">~&nbsp; Getting Real – It Just Doesn't Matter (37signals)</a></strong>
+  <a href="https://basecamp.com/gettingreal/05.2-it-just-doesnt-matter" target="_blank">
+    Getting Real – It Just Doesn't Matter (37signals)
+  </a>
 </p>
 
 ## Conclusion
