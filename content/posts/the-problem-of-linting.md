@@ -3,10 +3,11 @@ title: "The Problem of Linting"
 date: 2023-07-13T21:00:00-03:00
 draft: false
 image: "/images/banners/the-problem-of-linting.png"
+description: "Have you already spent precious time of your day fixing a code syntax style just because your code linter didn’t like that? Well, everyone already did, but don’t let it delay or distract you."
 tags: ["code", "styling", "linting"]
 ---
 
-Have you already spent precious time of your day fixing a code syntax style just because your code linter didn’t like that? Well, everyone already did, but don’t let it delay and distract you.
+Have you already spent precious time of your day fixing a code syntax style just because your code linter didn’t like that? Well, everyone already did, but don’t let it delay or distract you.
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/woWQA2I7xqRMI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
