@@ -2,14 +2,21 @@
   /* display: none; */
 }
 
+iframe {
+  pointer-events: none !important;
+}
+
 .sidebar {
   overflow: hidden;
 }
 
 a:hover {
   color: var(--link-color) !important;
-  text-decoration: none;
   transition: 0.1s ease-in-out;
+}
+
+.sidebar a:hover, .post-title a:hover {
+  text-decoration: none;
 }
 
 .bullet {
