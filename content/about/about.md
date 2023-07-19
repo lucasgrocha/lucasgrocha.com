@@ -4,20 +4,18 @@ date: 2023-06-25
 draft: true
 ---
 
+I'm a passionate full-stack software engineer focused on **Ruby on Rails**, **React**, **JavaScript**, and **SQL**. Experienced in agile workflow, including CI/CD methodologies. I aim to create solid and expandable applications by primarily focusing on developing the backend and frontend. Delivering high-quality software solutions to drive business growth and enhance user experiences, and always try to learn something new from that process.
 
-Enim est consectetur reprehenderit exercitation tempor cupidatat pariatur cupidatat laborum laboris voluptate irure proident. Nulla veniam ad velit reprehenderit ut in commodo anim. Est anim veniam tempor aliqua nostrud nostrud commodo quis nisi dolor amet excepteur reprehenderit. Eu est culpa ad nisi.
+Some of my software stacks I’m always putting into practice:
 
-Non id ea ad aliquip qui aute incididunt ea fugiat duis laborum reprehenderit. Proident id Lorem magna consectetur nostrud laboris labore exercitation laborum. Ea incididunt excepteur enim ex dolore magna eu tempor consequat sit consectetur irure voluptate dolor. Mollit sint aliquip laborum ex consequat incididunt non exercitation incididunt aliqua magna anim aute.
+- Ruby on Rails
+- SQL
+- React
+- Javascript (vanilla) and jQuery
+- HTML/CSS
 
-Ex exercitation ullamco officia nostrud esse. Reprehenderit labore voluptate tempor commodo sint culpa exercitation et. Sint deserunt sint non ut. Irure ad sit elit excepteur ea pariatur commodo excepteur nostrud cillum. Magna Lorem eu sint ipsum sit aute est reprehenderit esse quis id in sit anim.
+Also, I like to make people's lives more straightforward and be a part of that, but most of all, I love solving challenges. Every day is a new challenge, a new mindset, a new emotion, a new talk. Everything becomes different. That’s the magic.
 
-Magna pariatur excepteur sunt culpa. In cupidatat nulla eiusmod minim minim occaecat commodo quis sunt ea deserunt exercitation ipsum ex. Laborum nulla duis proident velit fugiat magna cillum.
+I’m based in São Paulo, Brazil, and I’ve worked remotely for the last ~3 years in a US healthcare company. This experience has been unique because I improved my software skills, english-speaking language comprehensibility, soft skills, and interpersonal side by talking and sharing my points of view with many people.
 
-```javascript
-  let a = 123
-  console.log(123)
-```
-
-Velit irure tempor culpa dolore consequat mollit cupidatat. Nostrud occaecat esse aute exercitation qui ipsum est id dolor do. Occaecat ipsum aute qui pariatur labore. Laboris dolor consectetur culpa eu consequat. Eu nulla esse magna eiusmod sit aute cillum. Id fugiat labore deserunt tempor labore veniam mollit amet non nisi ex.
-
-Cupidatat sunt occaecat qui occaecat proident qui aliquip non officia est nostrud eiusmod consectetur. Ad laborum occaecat veniam excepteur occaecat sit. Nostrud adipisicing irure excepteur sunt cillum consectetur aliquip enim do.
+I am addicted to software engineering, and I love continuously improving my skills. The beauty of this role is that there is always more to learn, just “like the infinite possibilities of the universe.”.
