@@ -1,6 +1,6 @@
 ---
 title: "Better Code QA - Benefit of Unit Testing"
-date: 2023-08-31T20:48:53-03:00
+date: 2023-09-01T07:31:42-03:00
 draft: false
 image: "/images/banners/better-code-qa-benefit-of-unit-testing.png"
 tags: ["code", "qa", "unit-test"]
@@ -14,17 +14,18 @@ Let's try tasting small pieces instead of eating the whole pie.
 
 ## Why? What's the benefit?
 
-I already spent countless hours of my day just trying to prove that my code works by running the step-by-step to reproduce the issue, and in the end, I found myself very stressed because most of the time, you'll miss setting some attributes that will conditionally trigger your fix. V*oila*, you get your stress level increased.
+I already spent countless hours of my day just trying to prove that my code works by running the step-by-step to reproduce the issue, and in the end, I found myself very stressed because most of the time, you'll miss setting some attributes that will conditionally trigger your fix. V*oila,* stress level increased.
 
 In my personal experience, the benefits are these:
 
-- Faster development/understanding
-- Faster QAing
+- Faster development/comprehensibility
+- Faster QA
 - Faster CI/CD
+- It is more straightforward to track down a flow throughout the codebase
 
 ## The painful process
 
-*I need to create a new user, set their config to this, update this row, update this other thing, and make sure the payload is that… And while you are thinking through all of this, you must answer some DM's, monitor logs, etc.*
+*I need to create a new user, set their config to this, update this row, update this other thing, and make sure the payload is that… And while you are thinking through all of this, you have to answer some DM's, monitor logs, etc.*
 
 There may be a more straightforward way to test your code that doesn't require all these painful steps.
 
@@ -49,7 +50,7 @@ class User
 end
 ```
 
-Here's the unit tests:
+Here are the unit tests:
 
 - Test if the BMI amount is the expected one for the given weight and height
 - Test if the given weight and height is underweight or not
@@ -67,7 +68,7 @@ class TestUser < Test::Unit::TestCase
 end
 ```
 
-So, how can I prove that this `#underweight?` method work as expected? You may say: "It's easy. I know exactly the inputs I need to give to test that method, and I know the output value by calling the `#bmi` method.” Yes, you're completely right, you already know all the business rules and the flow as well:
+So, how can I prove that this `#underweight?` method work as expected? Someone may say: "It's easy. I know exactly the inputs I need to give to test that method, and I know the output value by calling the `#bmi` method.” Yes, you're completely right, It’s already known all the business rules and the flow as well:
 
 ```ruby
 user = User.new(weight: 50, height: 1.80)
@@ -78,11 +79,11 @@ user.underweight? # 15.43 is less than 18.5
 #> true
 ```
 
-Let's forget about the `#bmi` for a brief moment so that it doesn't exist anymore. Now, you're entirely blind about what the calculation is. So, how can you prove the `#underweight?` method works?
+Let's forget about the `#bmi` for a brief moment so that it doesn't exist anymore. Now, we are entirely blind about what the calculation is. So, how can you prove the `#underweight?` method works?
 
 ## Take It Easy
 
-You don't need to know the math behind the BMI calculation. You only need to know the conditions that make the `#underweight?` respond precisely to what you want. If the BMI amount is `15`, the expected output is `true` since you have this condition: `x < 18.5` .
+We don't need to know the math behind the BMI calculation. We only need to know the conditions that make the `#underweight?` respond precisely to what we want. If the BMI is `15`, the expected output is `true` since you have this condition: `x < 18.5` .
 
 We already know this condition, so we can hard-code the BMI amount and test our method again:
 
@@ -92,22 +93,20 @@ def underweight?
 end
 ```
 
-That looks simple and weird at first view, and it is what it is supposed to be, though. That’s the essence of unit testing: mocking a bunch of values to make X method respond to what our automated tests are expecting.
+That looks simple, and it is what it is supposed to be, though. It’s the essence of unit testing: mocking values and method’s responses to make the other X method respond to what our automated tests are looking for, and at the end, everything is tested by attacking small pieces per time.
 
-Now you have proven that `#underweight?` the method works without having to instance the class, providing the right inputs, learning the calculation behind it, and so on. You get the target condition and hard-code the expected information to see Its desired behavior.
+Now we just have proven that `#underweight?` the method works without having to instance the class, providing the right inputs, learning the calculation behind it, and so on. Get the target condition and hard-code the expected information to see Its desired behavior.
 
-Unit testing involves testing small pieces of code to ensure proper functionality overall.
-
-Either `15` or `< 18.5` could be a completely different condition that could call a bunch of methods in the chain, and you would need to know precisely the inputs, Their formats, and conditions behind the scenes.
-
-This is primarily useful when you need a front end for your functionality or your QA person to test it at a code level.
+Either `15` or `< 18.5` could be a completely different condition that could call a lot of methods in the chain, and you would need to know precisely the inputs, Their formats, and conditions behind the scenes.
 
 ## Conclusion
 
-I've been doing this practice for a long time whenever I need to, and since I got this insight, I always try to use this approach in my tickets. It's effortless and helps me to have an overall view depending on the case because I can keep iterating the perspective like:
+I've been doing this practice for a long time whenever I need to, and since I got this insight, I try to use this approach in my tickets as much as possible. It's effortless and helps me to have an general view depending on the case because I can keep iterating the perspective like:
 
 - Understanding the small pieces
-- Take a step further and understand the small pieces from a different code
-- Understand the whole thing without needing to understand the entire thing at once
+- Take a step further and understand the small pieces from a different part
+- Comprehend the whole thing without needing to run the entire thing at once
 
-Sometimes, you can't test things this way and must try the whole thing. It's no problem, though. The most crucial point is that you understand how to unit test your code quickly in a real scenario.
+It’s very welcome to take advantage of the unit-testing idea and run that outside of the [testing suite](https://en.wikipedia.org/wiki/Test_suite) in the real world to be your proof of concepts.
+
+Unit testing involves testing small pieces of code to ensure proper functionality overall. Let’s do It then.
