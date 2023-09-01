@@ -60,7 +60,7 @@ class TestUser < Test::Unit::TestCase
     assert_equal(15.43, User.new(weight: 50, height: 1.80).bmi)
   end
 
-  def test_underweight
+  def test_underweight?
     assert_equal(true, User.new(weight: 50, height: 1.80).underweight?)
     assert_equal(false, User.new(weight: 80, height: 1.80).underweight?)
   end
