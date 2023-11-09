@@ -6,7 +6,7 @@ image: "/images/banners/thats-why-i-love-interactive-rebase.png"
 tags: ["git", "rebase"]
 ---
 
-I've used this approach to dealing with the commit history for years, and I don't see any "cons" yet. You probably already struggled to change a specific commit change, rename it, remove it, and anything else. I'm glad to welcome you to the interactive rebase power!
+I have been using this approach to deal with the git commits for years. You probably already struggled to change a specific commit, rename it, remove it, and anything else. I’m glad to welcome you to the interactive rebase power!
 
 ## What is interactive rebase?
 
@@ -25,6 +25,8 @@ My top ones are:
 3. `drop`
 4. `edit`
 5. `pick`
+
+You can also change history by changing the order of the commits!
 
 ## Putting into practice
 
