@@ -1,5 +1,5 @@
 ---
-title: "Thats Why I Love Interactive Rebase"
+title: "That's Why I Love Interactive Rebase"
 date: 2023-11-09T15:23:06-03:00
 draft: false
 image: "/images/banners/thats-why-i-love-interactive-rebase.png"
