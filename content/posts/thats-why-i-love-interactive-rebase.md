@@ -14,7 +14,7 @@ In my words, interactive rebasing allows you to manage anything you want to your
 
 Here's everything you can do to every single commit:
 
-![linter](/images/thats-why-i-love-interactive-rebase/git-commands.png "Linter output")
+![Git commands](/images/thats-why-i-love-interactive-rebase/git-commands.png "Git commands")
 
 It lets you choose between the options (aka rebase commands) and perform the desired action without running many git commands manually, so you'll have less work and headache.
 
