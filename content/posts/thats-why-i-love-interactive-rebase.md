@@ -85,14 +85,9 @@ reword 6227988 add year
 
 Now save, edit your `math` commit changes, commit again, and continue the rebase
 
-> `git add .`
->
-
-> `git commit --amend`
->
-
-> `git rebase --continue`
->
+- `git add .`
+- `git commit --amend`
+- `git rebase --continue`
 
 A new prompt will open, asking you to insert the update for the `add year` commit message.
 
