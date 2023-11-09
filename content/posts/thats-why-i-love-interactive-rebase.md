@@ -6,7 +6,7 @@ image: "/images/banners/thats-why-i-love-interactive-rebase.png"
 tags: ["git", "rebase"]
 ---
 
-I have been using this approach to deal with the git commits for years. You probably already struggled to change a specific commit, rename it, remove it, and anything else. I’m glad to welcome you to the interactive rebase power!
+You probably already struggled to change a specific commit, rename it, remove it, and anything else. I’m glad to welcome you to the interactive rebase power!
 
 ## What is interactive rebase?
 
