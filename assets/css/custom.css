@@ -7,7 +7,7 @@ iframe {
 }
 
 .sidebar {
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 a:hover {
