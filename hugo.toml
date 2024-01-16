@@ -16,7 +16,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     name = "Lucas Rocha"
 
 [params]
-    plausible = true
+    plausible = false
     plausible_domain = "lucasgrocha.com"
     plausible_script = "https://plausible.io/js/script.js"
     brand = "Lucas Rocha"                      # name of your site - appears in the sidebar
