@@ -1,8 +1,10 @@
 baseURL = "/"
 languageCode = "en-us"
 theme = "poison"
-paginate = 10
 title = "Lucas Rocha"
+
+[pagination]
+    pagerSize = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
 
@@ -21,7 +23,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     plausible_script = "https://plausible.io/js/script.js"
     brand = "Lucas Rocha"                      # name of your site - appears in the sidebar
     brand_image = "/images/picture-2.jpg"    # path to the image shown in the sidebar
-    remote_brand_image = 'https://github.com/lucasgrocha.png'
+    remote_brand_image = 'https://avatars.githubusercontent.com/u/37275161?v=4'
     description = "Software Engineer" # Used as default meta description if not specified in front matter
     dark_mode = false                      # optional - defaults to false
     favicon = "/favicon.png"             # path to favicon (defaults to favicon.png)
